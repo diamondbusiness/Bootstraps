@@ -1,0 +1,67 @@
+.nav-item {
+    width: 100px;
+}
+.nav-item:hover{
+    background-color: aquamarine;
+}
+
+.nav-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header {
+  background-color: #4db8ff;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+.header h3 {
+  font-weight: 300;
+}
+.search-bar {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.content {
+  padding: 50px 20px; 
+  display: flex;
+}
+
+.content-description p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.bar-chart div {
+  width: 20px;
+  background-color: #4db8ff;
+  margin: 0 10px;
+  display: inline-block;
+}
+.bar1 { height: 60px; }
+.bar2 { height: 100px; }
+.bar3 { height: 140px; }
+.bar4 { height: 180px; }
+
+@media (max-width: 768px) {
+.content {
+flex-direction: column;
+align-items: center;
+}
+.content-description {
+width: 100%;
+order: 1;
+
+}
+.bar-chart {
+order: 2;
+margin-top: 20px; 
+}
+}

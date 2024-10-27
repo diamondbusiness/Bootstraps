@@ -1,0 +1,25 @@
+.testimonial-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .testimonial-carousel {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contact-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+  }
+  .contact-info {
+    font-size: 1.1em;
+  }
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  .contact-info .icon {
+    font-size: 1.5em;
+    color: #4db8ff;
+  }
+  .form-control, .btn-primary {
+    border-radius: 0;
+  }
